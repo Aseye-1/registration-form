@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Register</h1>
+        <form>
+            <label for="Firstname">Firstname:</label>
+            <input id="Firstname" type="text" placeholder="firstname" required>
+            <label for="Lastname">Lastname:</label>
+            <input id="Lastname" type="text" placeholder="Lastname" required>
+            <div>
+                <label for="male">Male</label>
+                <input id="male" type="radio" name="choice">
+                <label for="female">Female</label>
+                <input id="female" type="radio" name="choice">
+                <label for="other">Other</label>
+                <input id="other" type="radio" name="choice">
+            </div>
+            <div>
+                <label for="Email">Email:</label>
+                <input id="Email" type="text" placeholder="Your Email" required />
+                <label for="passwor">Password:</label>
+                <input name="password" id="password" type="text" placeholder="your password" required>
+            </div>
+            <div>
+                <label>Birthday:
+                    <select name="month" id=" " placeholder="month">
+                        <option value="">Month</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                        <option value="">July</option>
+                    </select>
+                    <select name="day" id="">
+                        <option value="">Day</option>
+                        <option value="">06</option>
+                        <option value="">07</option>
+                        <option value="">08</option>
+                    </select>
+                    <select name="day" id="">
+                        <option value="">Year</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    I agree to the terms and conditions
+                    <input type="checkbox">
+                </label>
+            </div>
+            <div><button>Submit</button></div>
+        </form>
+
+    </div>
+</body>
+
+</html>
